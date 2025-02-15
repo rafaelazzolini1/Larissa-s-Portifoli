@@ -1,0 +1,55 @@
+{
+  "Header": {
+    "home": "Startseite",
+    "work": "Arbeiten",
+    "about": "Über Mich",
+    "testimonials": "Referenzen",
+    "contact": "Kontakt",
+    "styles": "Stile"
+  },
+  "Hero": {
+    "title": "Geschichten auf der Haut verewigen",
+    "gallery": "Galerie ansehen",
+    "locale": "Ansässig in Porto Feliz - São Paulo",
+    "role": "Tätowiererin",
+    "co_role": "Modedesign",
+    "nacionality": "Brasilianisch",
+    "age": "29 Jahre alt"
+  },
+  "Styles": {
+    "style": "Stile",
+    "fine_line": "Fine Line",
+    "fine_line_description": "Feine und präzise Linien, die minimalistische und elegante Designs schaffen.",
+    "micro_realism": "Mikrorealismus",
+    "micro_realism_description": "Hochdetaillierte Tattoos, die das Aussehen von Fotos in kleinem Maßstab nachahmen.",
+    "floral": "Floral",
+    "floral_description": "Designs, die von Blumen und Elementen der Natur inspiriert sind, oft mit einer zarten und künstlerischen Note.",
+    "ornamental": "Ornamental",
+    "ornamental_description": "Komplexe und symmetrische Muster, oft inspiriert von dekorativer und kultureller Kunst."
+  },
+  "Work": {
+    "samples": "Arbeiten"
+  },
+  "Contact": {
+    "title1": "Arbeitsweise",
+    "content1": "Jedes Projekt ist einzigartig und personalisiert, entwickelt durch einen kollaborativen Prozess, der mit einer detaillierten Beratung beginnt, um Ihre Vision zu verstehen, gemeinsam zwischen dem Kunden und der Tätowiererin.",
+    "content2": "Die Kunst wird erst nach der Terminvereinbarung und Zahlung der Tattoo-Anzahlung erstellt.",
+    "content3": "Die Designs sind immer exklusiv und werden nach den Wünschen und Vorlieben des Kunden erstellt, mit dem Ziel, einzigartig zu sein und der vorgeschlagenen Bedeutung zu entsprechen.",
+    "content4": "Einmal auf Ihnen tätowiert, wird es niemals (von mir) auf einer anderen Person reproduziert.",
+    "title2": "Angebot",
+    "content5": "Das Angebot kann per Direct oder WhatsApp eingeholt werden.",
+    "content6": "Um unser Projekt zu starten, senden Sie eine Nachricht mit:",
+    "content7": "• Was Sie tätowieren möchten",
+    "content8": "• Körperstelle, die Sie tätowieren möchten",
+    "content9": "• Ungefähre Größe des Tattoos in Zentimetern",
+    "content10": "• Visuelle Referenzen (Fotos, Bilder, Videos usw.), die die Erstellung Ihres exklusiven Kunstwerks inspirieren",
+    "title3": "Erstellungspolitik",
+    "content11": "Ich kopiere keine Kunstwerke anderer Tätowierer. Es ist möglich, sie als Basis oder Inspiration zu verwenden, aber das Ziel ist es, etwas Einzigartiges und Besonderes für Sie zu schaffen.",
+    "content12": "Ausnahmen gelten für Tattoos bekannter Charaktere oder generischer Designs (Sätze, Sterne, Herzen usw.), standardisierte und allgemein bekannte Kunstwerke.",
+    "service": "Service",
+    "send_message": "Nachricht senden"
+  },
+  "Footer": {
+    "rights": "Alle Rechte vorbehalten"
+  }
+}

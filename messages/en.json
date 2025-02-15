@@ -1,0 +1,55 @@
+{
+  "Header": {
+    "home": "Home",
+    "work": "Work",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "styles": "Styles"
+  },
+  "Hero": {
+    "title": "Eternalizing stories on skin",
+    "gallery": "View Gallery",
+    "locale": "Located in Porto Feliz - São Paulo",
+    "role": "Tattoo Artist",
+    "co_role": "Fashion Design",
+    "nacionality": "Brazilian",
+    "age": "29 years old"
+  },
+  "Styles": {
+    "style": "Styles",
+    "fine_line": "Fine Line",
+    "fine_line_description": "Delicate and precise lines that create minimalist and elegant designs.",
+    "micro_realism": "Micro Realism",
+    "micro_realism_description": "Highly detailed tattoos that mimic the appearance of photographs on a small scale.",
+    "floral": "Floral",
+    "floral_description": "Designs inspired by flowers and elements of nature, often with a delicate and artistic touch.",
+    "ornamental": "Ornamental",
+    "ornamental_description": "Intricate and symmetrical patterns, often inspired by decorative and cultural art."
+  },
+  "Work": {
+    "samples": "Work Samples"
+  },
+  "Contact": {
+    "title1": "Work Process",
+    "content1": "Each project is unique and personalized, developed through a collaborative process that begins with a detailed consultation to understand your vision, collaboratively between the client and the tattoo artist.",
+    "content2": "The artwork will only be created after scheduling and payment of the tattoo deposit.",
+    "content3": "The designs are always exclusive and created according to the client's request and taste, aiming to be unique and correspond to the proposed meaning.",
+    "content4": "Once tattooed on you, it will never be reproduced (by me) on another person.",
+    "title2": "Quote",
+    "content5": "The quote can be done via Direct or WhatsApp.",
+    "content6": "To start our project, send a message with:",
+    "content7": "• What you want to tattoo",
+    "content8": "• Body location where you want to tattoo",
+    "content9": "• Approximate size of the tattoo in centimeters",
+    "content10": "• Visual references (photos, images, videos, etc.) that inspire the creation of your exclusive artwork",
+    "title3": "Creation Policy",
+    "content11": "I do not copy artwork from other tattoo artists. It is possible to use them as a base or inspiration, but the purpose is to create something unique and special for you.",
+    "content12": "Exceptions are made for tattoos of known characters or generic designs (phrases, stars, hearts, etc.), standardized and well-known designs.",
+    "service": "Service",
+    "send_message": "Send Message"
+  },
+  "Footer": {
+    "rights": "All rights reserved"
+  }
+}
