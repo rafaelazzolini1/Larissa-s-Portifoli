@@ -23,7 +23,7 @@ const works = [
   { src: "/Tattos/Marip.jpeg", title: "Minimalist Moth" },
   { src: "/Tattos/Anna.jpeg", title: "Minimalist Anna" },
   { src: "/Tattos/IMG_3532.jpeg", title: "Minimalist Bo" },
-  { src: "/Tattos/Vigi.jpeg", title: "Minimalist Vigi" },
+  { src: "/Tattos/Butterfly.jpeg", title: "Minimalist Butterfly" },
 
 ];
 
@@ -50,7 +50,7 @@ export default function Work() {
   return (
     <section id="work" className="py-20 px-6">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-4xl tracking-[0.3em] mb-12 text-center animate-fade-in-up font-Andreas uppercase">
+        <h2 className="text-3xl tracking-[0.3em] mb-12 text-center animate-fade-in-up font-Andreas uppercase">
           {t("Work.samples")}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -17,8 +17,8 @@ export default function Header() {
           transition={{ duration: 0.5 }}
           className="flex flex-col text-center"
         >
-          <h1 className="text-3xl tracking-[0.3em] font-Andreas">LARISSA</h1>
-          <h1 className="text-3xl tracking-[0.3em] font-Andreas">AZZOLINI</h1>
+          <h1 className="text-2xl tracking-[0.3em] font-Andreas">LARISSA</h1>
+          <h1 className="text-2xl tracking-[0.3em] font-Andreas">AZZOLINI</h1>
         </motion.div>
 
         <motion.div
@@ -28,7 +28,7 @@ export default function Header() {
           className="w-20 h-20 flex items-center justify-center"
         >
           <Image
-            src="/favicon.ico"
+            src="/Logo_s_Fundo.png"
             alt="Logo"
             width={80}
             height={80}

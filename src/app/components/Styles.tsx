@@ -8,7 +8,7 @@ export default function Styles() {
   return (
     <section id="styles" className="py-20 px-6">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-4xl tracking-[0.3em] mb-12 text-center animate-fade-in-up font-Andreas uppercase">
+        <h2 className="text-3xl tracking-[0.3em] mb-12 text-center animate-fade-in-up font-Andreas uppercase">
           {t("Styles.style")}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

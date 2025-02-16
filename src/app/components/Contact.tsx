@@ -4,8 +4,6 @@ import { useTranslations } from "next-intl";
 import { FaInstagram } from "react-icons/fa";
 
 
-
-
 export default function Contact() {
   const t = useTranslations();
 
@@ -42,7 +40,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-32 px-6">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl tracking-[0.3em] mb-16 text-center animate-fade-in-up font-Andreas uppercase">
+        <h2 className="text-3xl tracking-[0.3em] mb-16 text-center animate-fade-in-up font-Andreas uppercase">
           {t("Contact.service")}
         </h2>
 
