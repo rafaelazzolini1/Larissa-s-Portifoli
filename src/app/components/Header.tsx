@@ -30,8 +30,8 @@ export default function Header() {
           <Image
             src="/Logo_s_Fundo.png"
             alt="Logo"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
             className="object-contain rounded-full"
           />
         </motion.div>
