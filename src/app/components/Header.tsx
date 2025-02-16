@@ -28,7 +28,7 @@ export default function Header() {
           className="w-20 h-20 flex items-center justify-center"
         >
           <Image
-            src="/Logo_S_Fundo.png"
+            src="/favicon.ico"
             alt="Logo"
             width={80}
             height={80}

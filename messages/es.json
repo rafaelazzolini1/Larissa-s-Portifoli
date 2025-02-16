@@ -1,0 +1,55 @@
+{
+    "Header": {
+      "home": "Inicio",
+      "work": "Trabajos",
+      "about": "Sobre mí",
+      "testimonials": "Testimonios",
+      "contact": "Contacto",
+      "styles": "Estilos"
+    },
+    "Hero": {
+      "title": "Eternizando historias en la piel",
+      "gallery": "Ver Galería",
+      "locale": "Ubicada en Porto Feliz - São Paulo",
+      "role": "Tatuadora",
+      "co_role": "Diseño de Moda",
+      "nacionality": "Brasileña",
+      "age": "29 años"
+    },
+    "Styles": {
+      "style": "Estilos",
+      "fine_line": "Fine Line",
+      "fine_line_description": "Líneas delicadas y precisas que crean diseños minimalistas y elegantes.",
+      "micro_realism": "Micro Realismo",
+      "micro_realism_description": "Tatuajes altamente detallados que imitan la apariencia de fotografías a pequeña escala.",
+      "floral": "Florales",
+      "floral_description": "Diseños inspirados en flores y elementos de la naturaleza, frecuentemente con un toque delicado y artístico.",
+      "ornamental": "Ornamental",
+      "ornamental_description": "Patrones intrincados y simétricos, muchas veces inspirados en arte decorativa y cultural."
+    },
+    "Work": {
+      "samples": "Trabajos"
+    },
+    "Contact": {
+      "title1": "Forma de Trabajo",
+      "content1": "Cada proyecto es único y personalizado, desarrollado a través de un proceso colaborativo que comienza con una consulta detallada para entender tu visión, de forma colaborativa entre el cliente y la tatuadora.",
+      "content2": "El arte solo será creado después de la reserva y el pago de la señal del tatuaje.",
+      "content3": "Las artes son siempre exclusivas y creadas según el pedido y el gusto del cliente, con el objetivo de ser únicas y corresponder al significado propuesto.",
+      "content4": "Una vez tatuada en ti, jamás será reproducida (por mí) en otra persona.",
+      "title2": "Presupuesto",
+      "content5": "El presupuesto puede realizarse por Direct o por WhatsApp.",
+      "content6": "Para comenzar nuestro proyecto, envía un mensaje con:",
+      "content7": "• Lo que quieres tatuar",
+      "content8": "• Lugar del cuerpo donde quieres tatuar",
+      "content9": "• Tamaño aproximado del tatuaje en centímetros",
+      "content10": "• Referencias visuales (fotos, imágenes, vídeos, etc.) que inspiren la creación de tu arte exclusiva",
+      "title3": "Política de Creación",
+      "content11": "No copio artes de otros tatuadores. Es posible usarlas como base o inspiración, pero el propósito es crear algo único y especial para ti.",
+      "content12": "Se hacen excepciones para tatuajes de personajes conocidos o dibujos genéricos (frases, estrellas, corazón, etc.), artes estandarizadas y conocidas por todo el mundo.",
+      "service": "Atención",
+      "send_message": "Enviar Mensaje"
+    },
+    "Footer": {
+      "rights": "Todos los derechos reservados"
+    }
+  }

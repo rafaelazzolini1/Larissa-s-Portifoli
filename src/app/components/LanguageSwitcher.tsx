@@ -12,6 +12,7 @@ const languages = [
   { code: "de", name: "German", flag: "/Flags/flag-icons-main/flags/4x3/de.svg" },
   { code: "it", name: "Italian", flag: "/Flags/flag-icons-main/flags/4x3/it.svg" },
   { code: "pt", name: "Português", flag: "/Flags/flag-icons-main/flags/4x3/br.svg" },
+  { code: "es", name: "Spanish", flag: "/Flags/flag-icons-main/flags/4x3/es.svg" }
 ];
 
 export default function LanguageSwitcher() {

@@ -20,6 +20,11 @@ const works = [
   { src: "/Tattos/1aab072d-8b41-49e5-8f69-c0750e4c7311.jpeg", title: "Minimalist Futbol" },
   { src: "/Tattos/Portrait.jpeg", title: "Minimalist Portrait" },
   { src: "/Tattos/Mandala.jpeg", title: "Minimalist Mandala" },
+  { src: "/Tattos/Marip.jpeg", title: "Minimalist Moth" },
+  { src: "/Tattos/Anna.jpeg", title: "Minimalist Anna" },
+  { src: "/Tattos/IMG_3532.jpeg", title: "Minimalist Bo" },
+  { src: "/Tattos/Vigi.jpeg", title: "Minimalist Vigi" },
+
 ];
 
 export default function Work() {
