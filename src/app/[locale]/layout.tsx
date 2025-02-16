@@ -13,20 +13,19 @@ export const metadata: Metadata = {
   description: "Showcasing the finest tattoo artistry",
 }
 
+type Locale = "en" | "pt" | "fr" | "it" | "de";
+
 export default async function LocaleLayout({
   children,
   params: { locale }
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: { locale: Locale };
 }) {
-  // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
 
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
