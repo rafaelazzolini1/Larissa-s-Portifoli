@@ -15,17 +15,19 @@ export const metadata: Metadata = {
 
 type Locale = "en" | "pt" | "fr" | "it" | "de";
 
-export default async function LocaleLayout({
-  children,
-  params: { locale }
-}: {
+interface LayoutProps {
   children: React.ReactNode;
   params: { locale: Locale };
-}) {
-  if (!routing.locales.includes(locale as Locale)) {
+}
+
+export default async function LocaleLayout({ children, params: { locale } }: LayoutProps) {
+  // Ensure that the incoming `locale` is valid
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
 
+  // Providing all messages to the client
+  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
@@ -34,7 +36,6 @@ export default async function LocaleLayout({
           <NextIntlClientProvider messages={messages}>
             {children}
           </NextIntlClientProvider>
-
       </body>
     </html>
   );
