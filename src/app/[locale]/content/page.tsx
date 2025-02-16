@@ -1,7 +1,7 @@
 'use client'
 
 import { useTranslations } from 'next-intl';
-import { Link, useRouter } from '@/i18n/routing';
+import { useRouter } from '@/i18n/routing';
 import Header from '@/app/components/Header';
 import Hero from '@/app/components/Hero';
 import Styles from '@/app/components/Styles';
@@ -11,8 +11,6 @@ import Footer from '@/app/components/Footer';
 
 
 export default function HomePage() {
-  const t = useTranslations();
-  const router = useRouter();
 
   return (
     <div className="min-h-screen">

@@ -2,12 +2,10 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { useTranslations } from "next-intl"
 import LanguageSwitcher from "./LanguageSwitcher"
 
 
 export default function Header() {
-  const t = useTranslations()
 
   return (
     <header className="fixed w-full z-50 bg-[#fafafa]/80 backdrop-blur-sm">
