@@ -14,7 +14,7 @@ export default function Styles() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Fine line */}
           <div className="relative animate-fade-in-up animation-delay-200">
-            <div className="relative z-10 bg-white/90 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
+            <div className="relative z-10 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
               <h3 className="text-xl tracking-[0.2em] font-Andreas uppercase">
                 {t("Styles.fine_line")}
               </h3>
@@ -25,7 +25,7 @@ export default function Styles() {
           </div>
           {/* Micro Realism */}
           <div className="relative animate-fade-in-up animation-delay-400">
-            <div className="relative z-10 bg-white/90 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
+            <div className="relative z-10 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
               <h3 className="text-xl tracking-[0.2em] font-Andreas uppercase">
                 {t("Styles.micro_realism")}
               </h3>
@@ -36,7 +36,7 @@ export default function Styles() {
           </div>
           {/* Floral */}
           <div className="relative animate-fade-in-up animation-delay-600">
-            <div className="relative z-10 bg-white/90 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
+            <div className="relative z-10 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
               <h3 className="text-xl tracking-[0.2em] font-Andreas uppercase">
                 {t("Styles.floral")}
               </h3>
@@ -47,7 +47,7 @@ export default function Styles() {
           </div>
           {/* Ornamental */}
           <div className="relative animate-fade-in-up animation-delay-800">
-            <div className="relative z-10 bg-white/90 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
+            <div className="relative z-10 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
               <h3 className="text-xl tracking-[0.2em] font-Andreas uppercase">
                 {t("Styles.ornamental")}
               </h3>

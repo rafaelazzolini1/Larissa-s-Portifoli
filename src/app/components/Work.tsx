@@ -1,11 +1,10 @@
 "use client"
 
-import { useTranslations } from "next-intl";
-import Image from "next/image";
-import { useState, useEffect } from "react";
-import Zoom from "react-medium-image-zoom";
-import "react-medium-image-zoom/dist/styles.css";
-
+import { useTranslations } from "next-intl"
+import Image from "next/image"
+import { useState, useEffect } from "react"
+import Zoom from "react-medium-image-zoom"
+import "react-medium-image-zoom/dist/styles.css"
 
 const works = [
   { src: "/Tattos/IMG_9152.jpeg", title: "Fine Line Floral Gratitude" },
@@ -24,50 +23,48 @@ const works = [
   { src: "/Tattos/Anna.jpeg", title: "Minimalist Anna" },
   { src: "/Tattos/IMG_3532.jpeg", title: "Minimalist Bo" },
   { src: "/Tattos/Butterfly.jpeg", title: "Minimalist Butterfly" },
-
-];
+]
 
 export default function Work() {
-  const [selectedWork, setSelectedWork] = useState<{ src: string; title: string } | null>(null);
-  const t = useTranslations();
+  const [selectedWork, setSelectedWork] = useState<{ src: string; title: string } | null>(null)
+  const t = useTranslations()
 
   useEffect(() => {
     if (selectedWork) {
-      document.body.classList.add("overflow-hidden");
+      document.body.classList.add("overflow-hidden")
     } else {
-      document.body.classList.remove("overflow-hidden");
+      document.body.classList.remove("overflow-hidden")
     }
-  }, [selectedWork]);
+  }, [selectedWork])
 
   const handleImageClick = (work: { src: string; title: string }) => {
-    setSelectedWork(work);
-  };
+    setSelectedWork(work)
+  }
 
   const closeModal = () => {
-    setSelectedWork(null);
-  };
+    setSelectedWork(null)
+  }
 
   return (
-    <section id="work" className="py-20 px-6">
-      <div className="container mx-auto max-w-4xl">
+    <section id="work" className="py-20 px-6 bg-white-100">
+      <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl tracking-[0.3em] mb-12 text-center animate-fade-in-up font-Andreas uppercase">
           {t("Work.samples")}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {works.map((work, index) => (
             <div
               key={work.title}
-              className={`animate-fade-in-up animation-delay-${(index + 1) * 100
-                }`}
+              className={`animate-fade-in-up animation-delay-${(index + 1) * 100}`}
               onClick={() => handleImageClick(work)}
             >
-              <div className="relative aspect-square hover-lift group">
+              <div className="relative aspect-square hover-lift group cursor-pointer overflow-hidden rounded-lg shadow-md">
                 <Image
                   src={work.src || "/placeholder.svg"}
                   alt={work.title}
                   fill
                   className="object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
                 />
               </div>
             </div>
@@ -84,16 +81,13 @@ export default function Work() {
             className="bg-white p-6 rounded-lg max-w-3xl max-h-[90vh] overflow-auto relative"
             onClick={(e) => e.stopPropagation()}
           >
-            <button
-              onClick={closeModal}
-              className="absolute top-2 right-2 text-gray-700 hover:text-gray-900 text-2xl"
-            >
+            <button onClick={closeModal} className="absolute top-2 right-2 text-gray-700 hover:text-gray-900 text-2xl">
               &times;
             </button>
 
             <Zoom>
               <Image
-                src={selectedWork.src}
+                src={selectedWork.src || "/placeholder.svg"}
                 alt={selectedWork.title}
                 width={600}
                 height={600}
@@ -104,5 +98,6 @@ export default function Work() {
         </div>
       )}
     </section>
-  );
+  )
 }
+

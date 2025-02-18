@@ -47,7 +47,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           {contactItems.slice(0, 2).map((item, index) => (
             <div key={index} className={`relative animate-fade-in-up animation-delay-${(index + 1) * 200}`}>
-              <div className="relative z-10 bg-white/90 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
+              <div className="relative z-10 backdrop-blur-md p-8 rounded-sm hover-lift h-full">
                 <h3 className="text-2xl tracking-[0.2em] mb-6 font-Andreas uppercase">{item.title}</h3>
                 <div className="text-gray-600 leading-relaxed tracking-wider">
                   {item.content.map((paragraph, i) => (
@@ -62,7 +62,7 @@ export default function Contact() {
         </div>
 
         <div className="animate-fade-in-up animation-delay-500">
-          <div className="relative z-10 bg-white/90 backdrop-blur-md p-8 rounded-sm hover-lift">
+          <div className="relative z-10 backdrop-blur-md p-8 rounded-sm hover-lift">
             <h3 className="text-2xl tracking-[0.2em] mb-6 font-Andreas uppercase">{contactItems[2].title}</h3>
             <div className="text-gray-600 leading-relaxed tracking-wider">
               {contactItems[2].content.map((paragraph, i) => (

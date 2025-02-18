@@ -14,8 +14,17 @@ body {
 
 @font-face {
   font-family: 'Andreas_font';
-  src: url('/utils/Andreas.otf') format('opentype'),
-       url('/utils/Andreas.ttf') format('truetype');
+  src: url('./utils/Andreas.otf') format('opentype'),
+       url('./utils/Andreas.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant_font';
+  src: url('./utils/Fonts/Cormorant/Cormorant-Italic-VariableFont_wght.ttf') format('truetype'),
+       url('./utils/Fonts/Cormorant/Cormorant-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
