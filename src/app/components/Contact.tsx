@@ -75,40 +75,44 @@ export default function Contact() {
         </div>
 
         <div className="mt-16 text-center animate-fade-in-up animation-delay-100">
-  <div className="inline-block hover-scale">
-    <a
-      href="https://wa.me/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group relative overflow-hidden rounded-sm bg-white px-8 py-4 inline-block 
+          <div className="mb-5">
+            <p className="text-gray-600 text-lg">{t("Contact.more_info")}</p>
+          </div>
+
+          <div className="inline-block hover-scale">
+            <a
+              href="https://wa.me/5515996692154"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative overflow-hidden rounded-sm bg-white px-8 py-4 inline-block 
                  animate-pulse hover:animate-none transition-all duration-200 
                  shadow-lg hover:shadow-xl"
-    >
-      <span className="relative z-10 text-lg tracking-[0.2em] group-hover:text-white transition-colors duration-100">
-        {t("Contact.send_message")}
-      </span>
-      <div className="absolute inset-0 bg-black transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
-    </a>
-  </div>
+            >
+              <span className="relative z-10 text-lg tracking-[0.2em] group-hover:text-white transition-colors duration-100">
+                {t("Contact.send_message")}
+              </span>
+              <div className="absolute inset-0 bg-black transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
+            </a>
+          </div>
 
-  <div className="mt-12 space-y-4 animate-fade-in-up animation-delay-600">
-    <div className="inline-block hover-scale">
-      <a
-        href="https://www.instagram.com/azzo.tattoo/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group relative overflow-hidden rounded-sm bg-white px-8 py-4 inline-block 
+          <div className="mt-12 space-y-4 animate-fade-in-up animation-delay-600">
+            <div className="inline-block hover-scale">
+              <a
+                href="https://www.instagram.com/azzo.tattoo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative overflow-hidden rounded-sm bg-white px-8 py-4 inline-block 
                    transition-all duration-200 shadow-lg hover:shadow-xl"
-      >
-        <span className="relative z-10 text-lg tracking-[0.15em] group-hover:text-white transition-colors duration-100 inline-flex items-center gap-2">
-          <FaInstagram className="text-xl" />
-          azzo.tattoo
-        </span>
-        <div className="absolute inset-0 bg-black transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
-      </a>
-    </div>
-  </div>
-</div>
+              >
+                <span className="relative z-10 text-lg tracking-[0.15em] group-hover:text-white transition-colors duration-100 inline-flex items-center gap-2">
+                  <FaInstagram className="text-xl" />
+                  azzo.tattoo
+                </span>
+                <div className="absolute inset-0 bg-black transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )
