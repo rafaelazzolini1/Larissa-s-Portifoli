@@ -14,6 +14,7 @@ export default {
       },
       fontFamily: {
         'Andreas': ['Andreas_font'],
+        'Cormorant': ['Cormorant_font'],
       },
     },
   },

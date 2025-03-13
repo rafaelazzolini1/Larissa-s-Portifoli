@@ -75,14 +75,18 @@ export default function Contact() {
         </div>
 
         <div className="mt-16 text-center animate-fade-in-up animation-delay-100">
+          <div className="mb-12">
+            <p className="text-gray-600 text-lg">{t("Contact.more_info")}</p>
+          </div>
+
           <div className="inline-block hover-scale">
             <a
               href="https://wa.me/5515996692154"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative overflow-hidden rounded-sm bg-white px-8 py-4 inline-block 
-                 animate-pulse hover:animate-none transition-all duration-200 
-                 shadow-lg hover:shadow-xl"
+         animate-pulse hover:animate-none transition-all duration-200 
+         shadow-lg hover:shadow-xl"
             >
               <span className="relative z-10 text-lg tracking-[0.2em] group-hover:text-white transition-colors duration-100">
                 {t("Contact.send_message")}
